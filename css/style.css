@@ -1,0 +1,56 @@
+:root {
+  --main-font: 'Playfair Display', serif;
+  --second-font: 'Ubuntu', sans-serif;
+  --main-color: #626262;
+  --second-color: #b4ad9e;
+  --link-hover-color: #03a9f4;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+/* Header */
+.header-list-link {
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.header-list-link:hover,
+.header-list-link:focus {
+  color: var(--link-hover-color);
+}
+
+/* main */
+.main-list h3 {
+  color: var(--second-color);
+  font-family: var(--second-font);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.main-list h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.main-list p {
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.button {
+  color: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
